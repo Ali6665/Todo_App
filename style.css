@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(163, 255, 175);
+    background: linear-gradient(to right, #007b8b, #ffae78); 
     margin-top: 100px;
 }
 .deletebtn{
@@ -26,9 +26,10 @@ input{
      padding-right: 100px;
      border-radius: 10px 10px;
      padding-left: 13px; padding-bottom: 10px; 
-     background-color: rgb(163, 255, 224);
+     background-color:  #66a4ac;
      border-bottom:2px solid black ; 
      margin-bottom: 20px;
+     margin-top: 10px
 }
 
 .buttonOne{
