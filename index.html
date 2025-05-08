@@ -4,33 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Todo Application</title>
-        <style>
-            .deletebtn{
-                background-color: red;
-                border: none;
-                color: black;
-                box-shadow: 0 0 20px red;
-            }
-
-            .Editbtn{
-                background-color: orange;
-                border: none;
-                color: black;
-                box-shadow: 0 0 20px orange;
-            }
-        </style>
+        <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/-HVJ0Nk8pks9-172JJSBsORCJpKd9b2A6E6EcQfVsgQzBQgI5uqsFiy8bGSwscyD_w" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
     </head>
     <body>
-        <div style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 26px;">
-            <h1>Todo App</h1>
+        <div style="text-align: center;font-family: Arial, Helvetica, sans-serif; font-size: 26px;">
+            <h1>"Todo App"</h1>
         </div>
         <div style="text-align: center;">
-            <input type="text" id="todoInput">
-            <button onclick="addTodo()">Add Items</button>
-            <button onclick="deleteAllTodos()">Delete all Items</button>
+            <input type="text"  placeholder="Please Enter your Todos" id="todoInput">
+           <div style="margin-bottom: 50px;">
+            <button class="buttonOne" onclick="addTodo()">Add Items</button>
+            <button class="buttonTwo"  onclick="deleteAllTodos()">Delete All Items</button>
+          </div>
+          <ol id="items_data"></ol>
         </div>
         <div style="text-align: center;">
-            <ul id="items_data"></ul>
+            
         </div>
     </body>
     <script src="app.js"></script>
