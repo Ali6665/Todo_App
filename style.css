@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(163, 255, 175);
+    margin-top: 100px;
+}
+.deletebtn{
+    color: rgb(104, 0, 0);
+     padding: 8px;
+     border:2px solid  rgb(104, 0, 0);
+     border-radius: 10px 10px; 
+     margin-right: 10px;
+    margin-left: 15px;
+}
+
+.Editbtn{
+    color: rgb(53, 100, 84); 
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border:2px solid rgb(53, 100, 84); 
+    border-radius: 10px 10px;
+    margin-right: 8px;
+}
+
+input{
+     padding-top: 20px;
+     padding-right: 100px;
+     border-radius: 10px 10px;
+     padding-left: 13px; padding-bottom: 10px; 
+     background-color: rgb(163, 255, 224);
+     border-bottom:2px solid black ; 
+     margin-bottom: 20px;
+}
+
+.buttonOne{
+    color: rgb(53, 100, 84); 
+    padding: 8px;  
+    border:2px solid rgb(53, 100, 84); 
+    border-radius: 10px 10px;
+    margin-right: 8px;
+}
+
+.buttonTwo{
+     color: rgb(104, 0, 0);
+     padding: 10px; border:2px solid  rgb(104, 0, 0);
+     border-radius: 10px 10px;
+}
+
+
+.buttonTwo:hover{
+    background-color: rgb(104, 0, 0);
+    border:2px solid  rgb(104, 0, 0);
+    border-radius: 10px 10px;
+    color: white;
+}
+.deletebtn:hover{
+    background-color: rgb(104, 0, 0);
+    border:2px solid  rgb(104, 0, 0);
+    border-radius: 10px 10px;
+    color: white;
+}
+
+.buttonOne:hover{
+     background-color: rgb(53, 100, 84);
+     border:2px solid rgb(53, 100, 84);
+     border-radius: 10px 10px;
+    color: white;
+}
+
+.Editbtn:hover{
+    background-color: rgb(53, 100, 84); 
+    border:2px solid rgb(53, 100, 84); 
+    border-radius: 10px 10px;
+    color: white;
+}
